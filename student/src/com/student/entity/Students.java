@@ -22,6 +22,18 @@ public class Students implements java.io.Serializable {
 	public Students() {
 	}
 
+	
+	public Students(String sid, String sname, String gender, Date birthday,
+			String address) {
+		super();
+		this.sid = sid;
+		this.sname = sname;
+		this.gender = gender;
+		this.birthday = birthday;
+		this.address = address;
+	}
+
+
 	/** full constructor */
 	public Students(String sname, String gender, Date birthday, String address) {
 		this.sname = sname;

@@ -1,0 +1,1 @@
+package com.student.service;import java.util.List;import com.student.entity.Students;public interface StudentsDao {		public List<Students> queryAllStudents();		public Students queryBySid(String sid);		public boolean addStudents(Students student);		public boolean updateStudents(Students student);		public boolean deleteStudents(String sid);	}

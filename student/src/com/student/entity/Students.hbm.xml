@@ -8,7 +8,7 @@
     <class name="com.student.entity.Students" table="students" catalog="studenttest">
         <id name="sid" type="java.lang.String">
             <column name="sid" length="8" />
-            <generator class="native" />
+            <generator class="assigned" />
         </id>
         <property name="sname" type="java.lang.String">
             <column name="sname" />

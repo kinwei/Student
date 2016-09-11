@@ -1,0 +1,1 @@
+package com.student.service;import com.student.entity.Users;public interface UsersDao {		public boolean userLogin(Users users);	}
